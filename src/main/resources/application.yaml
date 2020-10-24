@@ -36,10 +36,9 @@ spring:
     # 合并多个DruidDataSource的监控数据
     useGlobalDataSourceStat: true
 
-#Redis
-#spring.redis.host=127.0.0.1
+  #Redis
   redis:
-    host: 192.168.31.113
+    host: localhost
     ## Redis服务器连接端口
     port: 6379
     password: xinwodexie_113
